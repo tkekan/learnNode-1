@@ -1,16 +1,80 @@
 {
-  "data": [
+  "chart": {
+    "type": "column"
+  },
+  "title": {
+    "text": "CPU Utilization"
+  },
+  "xAxis": {
+    "categories": [
+      "/usr/bin/csh /.sim/bin/ps_monitor /bsmlogs/ps_monitor.data",
+      "/usr/ucb/ps -awwxu",
+      "fsflush",
+      "sched",
+      "/etc/init -",
+      "pageout",
+      "/usr/sbin/rpcbind",
+      "/usr/sbin/keyserv",
+      "/usr/sbin/kerbd",
+      "/usr/sbin/inetd -s",
+      "/usr/lib/nfs/statd",
+      "/usr/lib/nfs/lockd",
+      "/usr/lib/autofs/automountd",
+      "/usr/sbin/syslogd",
+      "/usr/sbin/cron",
+      "/usr/sbin/nscd",
+      "/usr/lib/lpsched",
+      "lpNet",
+      "sendmail",
+      "lpNet",
+      "/usr/lib/utmpd",
+      "/usr/sbin/vold",
+      "/usr/local/sbin/sshd",
+      "/usr/local/bin/xntpd",
+      "/usr/lib/saf/sac -t 300",
+      "/usr/bin/login",
+      "/usr/lib/saf/listen tcp",
+      "/usr/lib/saf/ttymon"
+    ]
+  },
+  "yAxis": {
+    "title": {
+      "text": "Percentage"
+    }
+  },
+  "series": [
     {
-      "col1": "1",
-      "col2": " abc",
-      "col3": " def",
-      "col4": " 123"
-    },
-    {
-      "col1": "2",
-      "col2": " bcd",
-      "col3": " efg",
-      "col4": " 234"
+      "name": "CPU Percentage",
+      "data": [
+        0.8,
+        1.7,
+        0,
+        0,
+        0.2,
+        0,
+        0.9,
+        0.5,
+        1.1,
+        1.1,
+        1,
+        0.9,
+        1.2,
+        1.1,
+        0.7,
+        1.3,
+        0.8,
+        0.9,
+        1.2,
+        1,
+        0.5,
+        1.5,
+        0.9,
+        1.3,
+        1,
+        1.2,
+        0.9,
+        1.1
+      ]
     }
   ]
 }
